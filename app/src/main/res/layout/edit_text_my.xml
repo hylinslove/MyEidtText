@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <com.chinastis.myeidttext.MyTextView
+            android:id="@+id/bac1"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_edit_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.chinastis.myeidttext.MyEditTextView
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="#00ffffff"
+            android:layout_centerInParent="true"
+            android:cursorVisible="false"
+            android:id="@+id/code1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <com.chinastis.myeidttext.MyTextView
+            android:id="@+id/bac2"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_edit_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.chinastis.myeidttext.MyEditTextView
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="#00ffffff"
+            android:layout_centerInParent="true"
+            android:cursorVisible="false"
+            android:id="@+id/code2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <com.chinastis.myeidttext.MyTextView
+            android:id="@+id/bac3"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_edit_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.chinastis.myeidttext.MyEditTextView
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="18sp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:cursorVisible="false"
+            android:id="@+id/code3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <com.chinastis.myeidttext.MyTextView
+            android:id="@+id/bac4"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_edit_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.chinastis.myeidttext.MyEditTextView
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="18sp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:cursorVisible="false"
+            android:id="@+id/code4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
